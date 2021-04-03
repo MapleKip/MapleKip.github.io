@@ -1,4 +1,4 @@
-img{
+.bunger{
  width:auto;
  height:95vh;
  margin-top:auto;
@@ -6,4 +6,8 @@ img{
  margin-right:auto;
  margin-top:auto;
  display:block;
+ transition: all 0.6s linear;
+}
+.bunger:hover{
+ rotate-hue:360;
 }
